@@ -1,6 +1,6 @@
 # IMG Arena Tech Challenge
 
-This is a tech challabge for the IMG Arena. See more deatils here: [https://hackmd.io/LAt6HwlQTH-RLJS4478Gqg?view](https://hackmd.io/LAt6HwlQTH-RLJS4478Gqg?view)
+This is a tech challenge for the IMG Arena. See more details here: [IMG Arena Tech Challenge](https://hackmd.io/LAt6HwlQTH-RLJS4478Gqg?view)
 
 
 # Run the application
