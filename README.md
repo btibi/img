@@ -61,3 +61,21 @@ Check the [H2 Database Consol](http://localhost:8080/h2-console/login.jsp)
 # Endpoint
 Check the  [API documentation](http://localhost:8080/swagger-ui.html)
 
+## GET [​/api​/matches](http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/matches-api/licensedMatchesByCustomerIds)
+
+#### Curl
+    curl -X GET "http://localhost:8080/api/matches?customerIds=1,2&summaryType=AvB" -H "accept: application/json"
+
+#### Request URL
+    http://localhost:8080/api/matches?customerIds=1,2&summaryType=AvB
+
+## GET [​/api​/matches​/{customerId}](http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/matches-api/licensedMatchesByCustomerId)
+
+#### Curl
+
+    curl -X GET "http://localhost:8080/api/matches/1?summaryType=AvBTime" -H "accept: application/json"
+
+#### Request URL
+
+    http://localhost:8080/api/matches/1?summaryType=AvBTime
+
