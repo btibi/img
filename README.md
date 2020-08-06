@@ -6,7 +6,17 @@ This is a tech challenge for the IMG Arena.
 
 # Run the application
 
+## Maven run
+
     mvnw spring-boot:run
+    
+## Build docker image and run under the docker
+
+    #Compile docker image
+    mvn compile jib:dockerBuild
+    
+    #Run docker image
+    docker-compose up
 
 # Default data
 
